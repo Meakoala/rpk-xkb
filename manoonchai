@@ -1,0 +1,61 @@
+﻿partial alphanumeric_keys
+xkb_symbols "manoonchai" {
+
+    name[Group1]= "Manoonchai v1.0";
+
+    key <TLDE> { [ dollar, asciitilde, dead_grave, dead_tilde] };
+    
+    key <AE01> { [ plus, 1, Thai_leknung ] };
+    key <AE02> { [ bracketleft, 2, Thai_leksong ] };
+    key <AE03> { [ braceleft, 3, Thai_leksam ] };
+    key <AE04> { [ parenleft, 4, Thai_leksi ] };
+    key <AE05> { [ ampersand, 5, Thai_lekha ] };
+    key <AE06> { [ equal, 6, Thai_lekhok ] };
+    key <AE07> { [ parenright, 7, Thai_lekchet ] };
+    key <AE08> { [ braceright, 8, Thai_lekpaet ] };
+    key <AE09> { [ bracketright, 9, Thai_lekkao ] };
+    key <AE10> { [ asterisk, 0, Thai_leksun ] };
+    key <AE12> { [ exclaim, percent ] };
+    key <AE13> { [ bar, grave ] };
+
+    key <AD01> { [ Thai_saraaimaimuan, Thai_thophuthao, semicolon, colon ] };
+    key <AD02> { [ Thai_totao, Thai_topatak, comma, less ] };
+    key <AD03> { [ Thai_hohip, Thai_soso, period, greater ] };
+    key <AD04> { [ Thai_loling, Thai_yoying ] };
+    key <AD05> { [ Thai_sosua, Thai_fofan ] };
+    key <AD06> { [ Thai_popla, Thai_choching ] };
+    key <AD07> { [ Thai_maihanakat, Thai_saraue, Thai_phinthu ] };
+    key <AD08> { [ Thai_kokai, Thai_thothong ] };
+    key <AD09> { [ Thai_sarai, Thai_thothan ] };
+    key <AD10> { [ Thai_bobaimai, Thai_dochada ] };
+    key <AD11> { [ Thai_maitaikhu, Thai_khorakhang, slash, question ] };
+    key <AD12> { [ Thai_lochula, Thai_thonangmontho, at, asciicircum ] };
+
+    key <AC01> { [ Thai_ngongu, Thai_sorusi, 0x10025cc ] };
+    key <AC02> { [ Thai_thothung, Thai_sarae, Thai_fongman ] };
+    key <AC03> { [ Thai_rorua, Thai_saraae, Thai_khomut ] };
+    key <AC04> { [ Thai_nonu, Thai_chochang, Thai_baht ] };
+    key <AC05> { [ Thai_moma, Thai_phophan ] };
+    key <AC06> { [ Thai_oang, Thai_phophung, Thai_nikhahit ] };
+    key <AC07> { [ Thai_saraaa, Thai_saraam, Thai_lakkhangyao ] };
+    key <AC08> { [ Thai_maiek, Thai_khokhai, Thai_khokhuat ] };
+    key <AC09> { [ Thai_maitho, Thai_sarao ] };
+    key <AC10> { [ Thai_wowaen, Thai_phosamphao, ] };
+    key <AC11> { [ Thai_sarauee, quotedbl, minus, unscore ] };
+
+    key <AB01> { [ Thai_sarau, Thai_ru, apostrophe, quotedbl ] };
+    key <AB02> { [ Thai_saraaimaimalai, Thai_fofa, Thai_lu ] };
+    key <AB03> { [ Thai_thothahan, Thai_maiyamok, Thai_angkhankhu ] };
+    key <AB04> { [ Thai_yoyak, Thai_nonen ] };
+    key <AB05> { [ Thai_chochan, Thai_maitri ] };
+    key <AB06> { [ Thai_khokhwai, Thai_maichattawa, Thai_khokhun ] };
+    key <AB07> { [ Thai_saraii, Thai_thanthakhat, Thai_yamakkhan ] };
+    key <AB08> { [ Thai_dodek, Thai_sosala};
+    key <AB09> { [ Thai_saraa, Thai_honokhuk ] };
+    key <AB10> { [ Thai_sarauu, question ] };
+
+    key <BKSL> { [ Thai_paiyannoi, Thai_chochoe, backslash, numbersign ] };
+
+    include "level3(ralt_switch)"
+
+};
