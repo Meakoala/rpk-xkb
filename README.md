@@ -1,3 +1,3 @@
 # `Real Programmer Keyboard`
 
-this is my custom xkb config in X11.
+This is my custom xkb files. Inspired by himself ThePrimeagen
